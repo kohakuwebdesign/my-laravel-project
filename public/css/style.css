@@ -1,0 +1,37 @@
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 1.8rem;
+}
+.background {
+    background-image: url("../images/background.png");
+    height: 400px;
+    width: 100%;
+    background-size: contain;
+    background-position: 5% bottom;
+    background-repeat: no-repeat;
+}
+.section-01 {
+    margin-top: -60px;
+}
+
+.bg-white-transparent {
+    background: rgba(255,255,255,.6);
+}
+.mybtn-01 {
+    width: 48%;
+    height: 150px;
+}
+.font-size-30 {
+    font-size: 30px;
+}
+.twitter-tweet > iframe {
+    width: 100% !important;
+}
+.instagram-media {
+    min-width: 100% !important;
+}
+@media (max-width: 767px) {
+    .section-01 {
+        margin-top: 40px;
+    }
+}
